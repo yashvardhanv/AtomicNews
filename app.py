@@ -28,3 +28,7 @@ def article():
     article.nlp()
     # print("ERRORS IN PARSING ARTICLE")
     return render_template('article.html', title='Article',article=article)
+
+if __name__ == "__main__":
+    #app.debug = True
+    app.run(host="0.0.0.0",port= 5000)
