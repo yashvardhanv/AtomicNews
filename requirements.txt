@@ -1,0 +1,5 @@
+flask
+newsapi-python
+newspaper3k
+requests
+gunicorn
